@@ -134,7 +134,6 @@ public class MST implements Serializable {
     }
 
     static class WeightComparator implements Comparator<Edge<Integer>>, Serializable {
-        // private static final long serialVersionUID = 3285846060042662009L;
         @Override
         public int compare(Edge e1, Edge e2) {
             return (int)e1.attr() - (int)e2.attr();
